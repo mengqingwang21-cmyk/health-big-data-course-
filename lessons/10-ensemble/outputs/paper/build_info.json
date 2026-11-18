@@ -1,0 +1,14 @@
+{
+  "built_at": "2026-11-14T16:14:19.993581+08:00",
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_docx": "1.2.0",
+  "PyMuPDF": "1.25.5",
+  "Microsoft_Word": "16.0",
+  "word_reported_pages": 16,
+  "pdf_pages": 16,
+  "paper_script_sha256": "0d4ca0a2c51658af29eee0edcc3db1dacccf3f7c369f3aeb475395448e53b84d",
+  "PDF_bytes": 1260258,
+  "DOCX_bytes": 915080,
+  "test_status": "锁定测试集尚未评价"
+}

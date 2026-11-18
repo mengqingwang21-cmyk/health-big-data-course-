@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local secrets and temporary files
+.env
+.env.*
+*.token
+.tmp/
+**/.tmp/
+*.tmp
+
+# Protected or non-shareable data
+**/teacher/
+**/raw/
+**/locked-test-labels.csv
+**/locked-test-features.csv
+**/all-measurements.csv
+
+# Re-creatable fitted models and previews
+**/outputs/models/
+**/outputs/presentation/previews/
+**/outputs/paper/previews/

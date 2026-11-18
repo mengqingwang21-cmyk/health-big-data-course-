@@ -1,0 +1,44 @@
+{
+  "word_version": "16.0",
+  "word_reported_pages": 16,
+  "pdf_exists": true,
+  "pdf_pages": 16,
+  "page_size_points": [
+    595.3,
+    841.9
+  ],
+  "page_aspect_ratio": 0.7071,
+  "page_text_lengths": [
+    970,
+    1190,
+    1411,
+    1197,
+    1319,
+    794,
+    1033,
+    1068,
+    1569,
+    842,
+    247,
+    480,
+    664,
+    997,
+    452,
+    2155
+  ],
+  "replacement_character_count": 0,
+  "required_headings": {
+    "摘要": true,
+    "1 引言": true,
+    "2 材料与方法": true,
+    "3 结果": true,
+    "4 讨论": true,
+    "5 证据边界与后续工作": true,
+    "6 结论": true,
+    "参考文献": true,
+    "锁定测试集尚未评价": true
+  },
+  "nonempty_pages": true,
+  "references_not_orphaned": true,
+  "created_at": "2026-11-14T16:14:19.993581+08:00"
+}
