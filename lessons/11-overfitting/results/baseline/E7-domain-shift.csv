@@ -1,0 +1,5 @@
+model,cohort,auc
+both_markers,internal,0.9996992481203008
+both_markers,shifted_simulated_site,0.0005018065034122841
+biological_only,internal,0.7497744360902255
+biological_only,shifted_simulated_site,0.6632878362103574

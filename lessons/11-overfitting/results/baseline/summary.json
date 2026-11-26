@@ -1,0 +1,207 @@
+{
+  "E1-complexity": [
+    {
+      "depth": "1",
+      "train_auc": 0.9061621621621622,
+      "validation_auc": 0.8672605140186916
+    },
+    {
+      "depth": "10",
+      "train_auc": 1.0,
+      "validation_auc": 0.8923773364485982
+    },
+    {
+      "depth": "2",
+      "train_auc": 0.9667027027027026,
+      "validation_auc": 0.9266939252336448
+    },
+    {
+      "depth": "3",
+      "train_auc": 0.9853108108108108,
+      "validation_auc": 0.9263288551401868
+    },
+    {
+      "depth": "5",
+      "train_auc": 0.9992297297297298,
+      "validation_auc": 0.91084988317757
+    },
+    {
+      "depth": "unlimited",
+      "train_auc": 1.0,
+      "validation_auc": 0.8923773364485982
+    }
+  ],
+  "E1-sample-features": [
+    {
+      "n": 40,
+      "noise_features": 0,
+      "train_auc": 1.0,
+      "validation_auc": 0.9833820093457945
+    },
+    {
+      "n": 40,
+      "noise_features": 300,
+      "train_auc": 1.0,
+      "validation_auc": 0.9525116822429907
+    },
+    {
+      "n": 100,
+      "noise_features": 0,
+      "train_auc": 1.0,
+      "validation_auc": 0.9855140186915887
+    },
+    {
+      "n": 100,
+      "noise_features": 300,
+      "train_auc": 1.0,
+      "validation_auc": 0.9628504672897196
+    },
+    {
+      "n": 200,
+      "noise_features": 0,
+      "train_auc": 0.9997948226116659,
+      "validation_auc": 0.9864193925233644
+    },
+    {
+      "n": 200,
+      "noise_features": 300,
+      "train_auc": 1.0,
+      "validation_auc": 0.9704585280373831
+    },
+    {
+      "n": 398,
+      "noise_features": 0,
+      "train_auc": 0.9995675675675676,
+      "validation_auc": 0.9878796728971964
+    },
+    {
+      "n": 398,
+      "noise_features": 300,
+      "train_auc": 1.0,
+      "validation_auc": 0.9753504672897195
+    }
+  ],
+  "E2-cv": [
+    {
+      "model": "logistic",
+      "auc": 0.997503448275862
+    },
+    {
+      "model": "tree",
+      "auc": 0.941471264367816
+    }
+  ],
+  "E3-scaling": [
+    {
+      "scaler_fit": "all_X_leaky",
+      "auc": 0.9867114485981308
+    },
+    {
+      "scaler_fit": "training_only",
+      "auc": 0.98758761682243
+    }
+  ],
+  "E4-feature-selection": [
+    {
+      "method": "fold_pipeline",
+      "auc": 0.4964197530864197
+    },
+    {
+      "method": "global_selection_leaky",
+      "auc": 0.8440740740740741
+    }
+  ],
+  "E5-patient-split": [
+    {
+      "method": "group_split",
+      "auc": 0.4728612394227719,
+      "overlap_patients": 0.0
+    },
+    {
+      "method": "row_split_leaky",
+      "auc": 0.9866666666666667,
+      "overlap_patients": 74.9
+    }
+  ],
+  "E6-repeated-selection": [
+    {
+      "candidates": 1,
+      "reused_holdout_auc": 0.492575,
+      "fresh_audit_auc": 0.4998475
+    },
+    {
+      "candidates": 5,
+      "reused_holdout_auc": 0.57983125,
+      "fresh_audit_auc": 0.503184
+    },
+    {
+      "candidates": 20,
+      "reused_holdout_auc": 0.62374375,
+      "fresh_audit_auc": 0.49959649999999994
+    },
+    {
+      "candidates": 100,
+      "reused_holdout_auc": 0.6633312499999999,
+      "fresh_audit_auc": 0.5002087500000001
+    },
+    {
+      "candidates": 200,
+      "reused_holdout_auc": 0.6750375,
+      "fresh_audit_auc": 0.5001227500000001
+    }
+  ],
+  "E7-domain-shift": [
+    {
+      "model": "biological_only",
+      "cohort": "internal",
+      "auc": 0.7497744360902255
+    },
+    {
+      "model": "biological_only",
+      "cohort": "shifted_simulated_site",
+      "auc": 0.6632878362103574
+    },
+    {
+      "model": "both_markers",
+      "cohort": "internal",
+      "auc": 0.9996992481203008
+    },
+    {
+      "model": "both_markers",
+      "cohort": "shifted_simulated_site",
+      "auc": 0.0005018065034122
+    }
+  ],
+  "E2-case-deletion": [
+    {
+      "removed_train_index": 69,
+      "mean_absolute_probability_change": 0.1169590643274853,
+      "validation_auc": 0.91727511682243,
+      "baseline_auc": 0.8923773364485982
+    },
+    {
+      "removed_train_index": 63,
+      "mean_absolute_probability_change": 0.1111111111111111,
+      "validation_auc": 0.90946261682243,
+      "baseline_auc": 0.8923773364485982
+    },
+    {
+      "removed_train_index": 285,
+      "mean_absolute_probability_change": 0.1111111111111111,
+      "validation_auc": 0.92508761682243,
+      "baseline_auc": 0.8923773364485982
+    },
+    {
+      "removed_train_index": 357,
+      "mean_absolute_probability_change": 0.1111111111111111,
+      "validation_auc": 0.92508761682243,
+      "baseline_auc": 0.8923773364485982
+    },
+    {
+      "removed_train_index": 236,
+      "mean_absolute_probability_change": 0.1111111111111111,
+      "validation_auc": 0.92508761682243,
+      "baseline_auc": 0.8923773364485982
+    }
+  ]
+}

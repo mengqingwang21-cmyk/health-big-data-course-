@@ -1,0 +1,3 @@
+﻿method,auc,overlap_patients
+group_split,0.4728612394227719,0.0
+row_split_leaky,0.9866666666666667,74.9

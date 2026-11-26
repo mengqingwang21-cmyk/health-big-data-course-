@@ -1,0 +1,14 @@
+{
+  "python": "3.11.7",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "sklearn": "1.5.2",
+  "matplotlib": "3.9.2",
+  "seed": 1111,
+  "data_sha256": {
+    "null-omics.csv": "79c36383f8006408b4c7822fcc5c97c932436d136e85975789b3802e74dd4462",
+    "repeated-patients.csv": "b3057a6c491c4b8266be326966637e747de23a6d4fe0b3b5c8993ee9e05dfbcc",
+    "wdbc.csv": "db5fe6fc4a549d779340f8ac8990598077d9520405b6560fef89498d74196033"
+  },
+  "std_definition": "sample standard deviation, ddof=1; repeated CV folds are not independent"
+}

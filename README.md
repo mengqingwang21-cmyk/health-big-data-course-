@@ -12,6 +12,7 @@
 | 第9课：Ensemble 压缩包 | `lessons/09-ensemble-archive-pending-review/` | 课件、学生数据、工作单和脚本已归档；与第10课关系待核对 | `9. Ensemble.zip` |
 | 第9课：SVM | `lessons/09-svm-pending-review/` | 课件、学生数据、工作单和代码已归档；编号待核对 | `9. SVM.zip`、SVM课件及作业文件 |
 | Ensemble 作业样板 | `lessons/10-ensemble/` | 已整理第一份课程样板 | 当前 `10. Ensemble/` 项目 |
+| 第11课：欠拟合与过拟合 | [课次目录](lessons/11-overfitting/) | 课件、数据、实验代码、已有结果及论文已归档 | `11. Over-fitting/` |
 
 现有材料中同时出现 `9. Ensemble.zip` 和 `10. Ensemble/`。在核对材料内容前，暂时分别记录。其他课程的 `slides/`、`data/`、`homework/`、`notebooks/` 与 `scripts/` 保存从对应课程压缩包中摘出的课件、学生数据、工作单和实际代码；这些 Notebook/脚本尚未运行，且未生成新的结果或研究报告。细节见各课 README。
 
@@ -43,4 +44,3 @@ lessons/<课次-主题>/
 
 完整流程和建议的版本记录方式见 [COURSE_WORKFLOW.md](COURSE_WORKFLOW.md)。老师发的项目型任务说明放在 [course-materials/](course-materials/)。
 
-**当前状态：**这是本地课程仓库草稿，GitHub 远程仓库和仓库链接尚未创建。课程材料来源文件暂时保留在本机原位置；待整理课次的目录目前只是待办索引。

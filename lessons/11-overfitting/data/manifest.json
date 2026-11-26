@@ -1,0 +1,9 @@
+{
+  "seed": 1111,
+  "python": "3.13.12",
+  "sklearn": "1.8.0",
+  "wdbc_rows": 569,
+  "train": 398,
+  "validation": 171,
+  "simulations": "Independent labels for null-omics and identity experiments. Never clinical evidence."
+}

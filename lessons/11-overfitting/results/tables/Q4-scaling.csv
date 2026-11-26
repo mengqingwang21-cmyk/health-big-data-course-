@@ -1,0 +1,3 @@
+﻿scaler_fit,auc,first_feature_mean,n_seen
+all_X_leaky,0.9867114485981308,14.127291739894565,569
+training_only,0.98758761682243,14.08428894472362,398
